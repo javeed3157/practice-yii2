@@ -43,6 +43,9 @@ return [
             'showScriptName' => false,
             'enableStrictParsing' => false,
             'rules' => [
+                '/roles' => '/role/index',
+                '/role/update/<id>' => '/role/update/',
+                '/role/view/<id>' => '/role/view/',
             ],
         ],
 
